@@ -1,0 +1,7 @@
+# fmi_robot_simulator node configuration parameters
+/fmi_robot_simulator_node:
+  ros__parameters:
+    fmu_path: "/home/bascetta/ros2_ws/ome_integration/install/fmi_robot_simulator/share/fmi_robot_simulator/models/differential_drive.kinematic_simulator.fmu"
+    step_size: 0.01            # FMU integration step time [s]
+    update_period: 0.01        # Simulator publishing period [s]
+ 
